@@ -1,4 +1,4 @@
-package ejerecicios;
+package Ejercicios;
 
 public class homanudo {
     public static void main(String[] args) {
