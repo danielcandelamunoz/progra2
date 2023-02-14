@@ -1,6 +1,6 @@
-package Ejercicios;
+package Ejercicios.Ejercicio_2;
 import java.util.*;
-public class Ejercicio_1{
+public class Ejercicio_2_1{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Escoja un numero: ");
@@ -12,7 +12,7 @@ public class Ejercicio_1{
         if (n == 1 ){
             return 1;
         }else{
-            return Suma(n-1);
+            return n + Suma(n-1);
         }
     }
 }
