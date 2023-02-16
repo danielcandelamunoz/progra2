@@ -1,6 +1,6 @@
 package Ejercicios.Ejercicio_2;
 import java.util.*;
-public class Ejercicio2_6 {
+public class Ejercicio_2_6 {
     public static void main(String[] args){
 
         double [] n = {1,2,3,4,5,6,7,8,9,10};
@@ -14,7 +14,7 @@ public class Ejercicio2_6 {
         }
     }
     public static double Mediacuad(double [] n){
-    return cuadrado(n, 0)/n.length;
+    return cuadrado(n, 0)/n.length ;
 }
     public static double Medianorm(double [] n, int i){
         if (i == n.length -1 ){
